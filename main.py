@@ -1,7 +1,7 @@
 import simplejson as json
 import time
 
-with open("inbox/SaramaudeBouffard_Jz5vXetq7A/message_1.json", "r") as read_file:
+with open("inserer path ici", "r") as read_file:
     data = json.load(read_file)
 
 data['messages'].reverse()
