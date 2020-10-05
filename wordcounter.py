@@ -63,7 +63,7 @@ print(out)
 # fonction recherche
 '''
 for line in out.splitlines():
-    if re.search('Marchand', line):
+    if re.search('Nom a chercher', line):
         print(line)
 '''
 # print('\nLe mot le plus utilisé est : ' + colored(words[x], 'red'))
